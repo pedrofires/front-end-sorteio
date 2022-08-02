@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-image: url("./DCComics_DCZoomBackgrounds_v1e_5ea38273b5a933.51868954.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   color: rgb(233, 235, 113);
+}
+div {
+   min-height: 100vh;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   background-color: rgba(31, 31, 31, 0.671);
+
+   text-align: center;
+}
+img {
+   height: 300px;
+   width: auto;
+
+   margin: 30px;
+}
